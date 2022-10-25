@@ -1,0 +1,39 @@
+			GIT LOCAL
+git init - для подключения  GIT к проекту
+git add ...(file name.)- подготавливат файлы к commit
+git commit -m "file short description" - сохранили, отправили
+
+			GIT HUB Remote
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/RasulAliyarov/FirstLesson.git
+git push -u origin main
+
+			GIT HUB For Local
+
+In windows terminal: git clone ...(rep link)
+Создается файл и его открываем как проект
+git add ...(file name.)- подготавлиgit ват файлы к commit
+git commit -m "file short description" - сохранили, отправили
+для отпаврки в само гитхаб
+git push
+
+-------------
+git pull - вытягивает изминения из GITHUB
+-------------
+dir(ls) hardayig
+mkdir - Create Folder
+cd ...- Perexod ...
+cd .. - Perexod Nazad
+echo "salam" > file.txt (Запишет салам в файл)
+rmdir "name" - Delete file
+rm name.txt - Delete file
+
+
+credentional там удаляем старые данные пользователя
+
+	Нужен чтобы установить правильное имя при Push-e
+git config --global user.name "GithubFirstName Last Name"
+git config --global user.email "Github Email" 
+
+git reset --hard HEAD~1 - Удаляет последний коммит
