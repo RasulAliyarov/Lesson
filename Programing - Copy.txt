@@ -4,7 +4,6 @@ git add ...(file name.)- подготавливат файлы к commit
 git commit -m "file short description" - сохранили, отправили
 
 			GIT HUB Remote
-git add README.md
 git commit -m "first commit"
 git remote add origin https://github.com/RasulAliyarov/FirstLesson.git
 git push -u origin main
